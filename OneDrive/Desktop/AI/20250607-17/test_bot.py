@@ -74,7 +74,7 @@ class BotTester:
             """
             
             response = self.openai_client.chat.completions.create(
-                model="gpt-4o-mini",
+                model="gpt-4.1-mini",
                 messages=[
                     {"role": "system", "content": "Ты эксперт по истории и географии, который рассказывает интересные факты о местах."},
                     {"role": "user", "content": prompt}

@@ -24,7 +24,7 @@ alwaysApply: false
 
 - DONE: Реализовать основной код для бота с использованием python-telegram-bot. // done by Cursor - complete main.py with async handlers
 - DONE: Реализовать получение геолокации от пользователя через Telegram API. // done by Cursor - location handler with UI buttons
-- DONE: Создать обработчик запросов к OpenAI API для получения интересных фактов. // done by Cursor - GPT-4o-mini integration with error handling
+- DONE: Создать обработчик запросов к OpenAI API для получения интересных фактов. // done by Cursor - GPT-4.1-mini integration with error handling
 - DONE: Настроить команды для тестирования бота. // done by Cursor - /start, /help, location handler, unknown message handler
 
 ## Milestone 3: Развертывание и тестирование
