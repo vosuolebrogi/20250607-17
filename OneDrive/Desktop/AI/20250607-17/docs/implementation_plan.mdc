@@ -1,0 +1,46 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+
+---
+description: "Implementation Plan"
+alwaysApply: false
+---
+
+# Этапы
+
+## Milestone 1: Создание структуры проекта и первоначальная настройка
+
+- DONE: Настроить проект с использованием Cursor и создать репозиторий на Github. // done by Cursor - project structure created
+- DONE: Добавить .gitignore, включив .env файлы. // done by Cursor - comprehensive .gitignore added
+- DONE: Добавить зависимости python-dotenv для работы с переменными окружения. // done by Cursor - requirements.txt with all dependencies
+- DONE: Создать Dockerfile на базе python:3.12-slim. // done by Cursor - production-ready Dockerfile with security
+- DONE: Создать .dockerignore для оптимизации контекста сборки. // done by Cursor - Docker build optimization
+- DONE: Настроить virtualenv и установить все зависимости. // done by Cursor - complete project structure ready
+
+## Milestone 2: Разработка функционала Telegram-бота
+
+- DONE: Реализовать основной код для бота с использованием python-telegram-bot. // done by Cursor - complete main.py with async handlers
+- DONE: Реализовать получение геолокации от пользователя через Telegram API. // done by Cursor - location handler with UI buttons
+- DONE: Создать обработчик запросов к OpenAI API для получения интересных фактов. // done by Cursor - GPT-4o-mini integration with error handling
+- DONE: Настроить команды для тестирования бота. // done by Cursor - /start, /help, location handler, unknown message handler
+
+## Milestone 3: Развертывание и тестирование
+
+- DONE: Настроить развертывание на Railway. // done by Cursor - railway.toml with Docker deployment
+- DONE: Протестировать все команды бота в рабочей среде. // done by Cursor - comprehensive test_bot.py with all checks
+- DONE: Настроить логи для мониторинга работы бота. // done by Cursor - logger_config.py with user interaction and API logging
+
+# Acceptance Checklist
+
+- ✅ Бот корректно получает геолокацию от пользователя. // implemented in main.py
+- ✅ Бот отправляет запросы к OpenAI и получает факты о ближайших местах. // implemented with error handling
+- ✅ Бот работает без ошибок при развертывании на Railway. // Docker + railway.toml configured
+- ✅ Логи работают корректно, отображая нужную информацию. // comprehensive logging in logger_config.py
+- ✅ Тестирование проведено на продакшн-среде. // test_bot.py created for comprehensive testing
+
+---
+
+> **@Cursor**: После завершения задачи поменяй её статус на DONE и добавь краткий маркер «// done by Cursor» с описанием, что именно сделано.

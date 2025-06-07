@@ -1,0 +1,8 @@
+|    | Layer            | Library/Service          | Purpose                                                              | Documentation Link                                   |
+|---:|:-----------------|:-------------------------|:---------------------------------------------------------------------|:-----------------------------------------------------|
+|  0 | Runtime          | Python 3.9               | Provides the runtime environment for the bot to execute Python code. | https://www.python.org/downloads/release/python-390/ |
+|  1 | Bot SDK          | python-telegram-bot 20.0 | Library to interact with the Telegram Bot API.                       | https://python-telegram-bot.readthedocs.io/          |
+|  2 | OpenAI SDK       | openai 0.27.0            | Library to interact with OpenAI's GPT-4.1-mini API.                  | https://pypi.org/project/openai/                     |
+|  3 | Database         | None                     | Not required as no database is being used for this MVP.              | N/A                                                  |
+|  4 | Deployment       | Railway                  | Cloud platform to deploy the bot.                                    | https://railway.app/                                 |
+|  5 | Linter/Formatter | Flake8 4.0.1             | Linter for enforcing coding standards and ensuring code quality.     | https://flake8.pycqa.org/                            |
